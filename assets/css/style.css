@@ -322,9 +322,7 @@ body.dark p{
 	color: #fff;
     transition-delay: 0ms !important;
 }
-body.dark .bg-light {
-	background-color: rgb(255 253 208) !important;
-}
+
 /* body.dark .start-header {
 	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
