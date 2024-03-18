@@ -174,20 +174,20 @@ body{
 	background-color: #fff !important;
     transition: all 200ms linear;
 }
-.section:nth-child(odd)  {
+.section:nth-child(2n+1)  {
     background-color: #d2b48c ;
 	color: #2B0F0E !important;
 }
-.section:nth-child(even){
+.section:nth-child(2n){
     background-color: #2B0F0E;
 	color: #d2b48c !important;
     /* background-color: white; */
 }
-.section:nth-child(even) span{
+.section:nth-child(2n) span{
 	color: #d2b48c ;
 	
 }
-.section:nth-child(odd) span  {
+.section:nth-child(2n+1) span  {
 	color: #2B0F0E ;
 }
 .section {
@@ -325,12 +325,12 @@ body.dark p{
 body.dark .bg-light {
 	background-color: #fffdd0 !important;
 }
-body.dark .start-header {
+/* body.dark .start-header {
 	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
 body.dark .start-header.scroll-on {
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-}
+} */
 body.dark .nav-link{
 	color: #2B0F0E  !important;
     font-size: 25px;
