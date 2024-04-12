@@ -452,8 +452,8 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		height: 22vh !important;/* Adjust as needed */
 	  }
 	  #video{
-		height: 40vh;
-		min-height: 20rem;
+		height: 40vh !important;
+		min-height: 20rem !important;
 	  }
 	
 }
