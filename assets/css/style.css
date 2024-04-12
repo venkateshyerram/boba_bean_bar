@@ -445,6 +445,17 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	#about h1{
 		padding-left: 2rem;
 	}
+	.video-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 22vh !important;/* Adjust as needed */
+	  }
+	  #video{
+		height: 40vh;
+		min-height: 20rem;
+	  }
+	
 }
 
 /* #Link to page
