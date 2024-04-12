@@ -248,6 +248,7 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 15px;
   transition: opacity 0.3s;
+  min-height: 3rem;
 }
 @media screen and (max-width: 576px) {
   .news__title {

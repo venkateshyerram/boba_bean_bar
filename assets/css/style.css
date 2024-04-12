@@ -449,7 +449,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 22vh !important;/* Adjust as needed */
+		width: 100% !important;/* Adjust as needed */
 	  }
 	  #video{
 		height: 40vh !important;
@@ -627,5 +627,5 @@ a.button:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70vh; /* Adjust as needed */
+	width: 230%; /* Adjust as needed */
   }
