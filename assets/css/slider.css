@@ -261,13 +261,14 @@ a:hover {
   font-size: 15px;
   opacity: 0.7;
   transition: opacity 0.3s;
+  min-height: 7rem;
   /* color: #2B0F0E !important; */
   color: #fffdd0 !important;
 }
 .news__img {
   border-radius: 10px;
   box-shadow: 0 6px 26px 6px rgba(0, 0, 0, 0.25);
-  height: 200px;
+  height: 22rem;
   margin-top: 30px;
   width: 100%;
   transition: all 0.3s;
@@ -275,7 +276,7 @@ a:hover {
 }
 @media screen and (max-width: 576px) {
   .news__img {
-    height: 180px;
+    /* height: 180px; */
     margin-top: 20px;
   }
 }
