@@ -249,6 +249,8 @@ a:hover {
   margin-bottom: 15px;
   transition: opacity 0.3s;
   min-height: 3rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  
 }
 @media screen and (max-width: 576px) {
   .news__title {
@@ -258,14 +260,15 @@ a:hover {
 }
 .news__txt {
   margin: 10px 0;
-  line-height: 1.6em;
-  font-size: 15px;
-  opacity: 0.7;
+  line-height: 1.4em;
+  font-size: 16.5px;
+  opacity: 0.5;
   transition: opacity 0.3s;
-  min-height: 7rem;
+  min-height: 9rem;
   text-align: left;
   /* color: #2B0F0E !important; */
   color: #fffdd0 !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .news__img {
   border-radius: 10px;
