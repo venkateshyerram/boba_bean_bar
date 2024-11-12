@@ -263,6 +263,7 @@ a:hover {
   opacity: 0.7;
   transition: opacity 0.3s;
   min-height: 7rem;
+  text-align: left;
   /* color: #2B0F0E !important; */
   color: #fffdd0 !important;
 }
